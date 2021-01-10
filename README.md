@@ -12,13 +12,17 @@ The size of file ~ 400 MB
 Computational Calculations: 
 
 The Computational Calculations  involve sorting , appending columns  searching and binding data 
+Options that i considered for doing the calculations
 1) Load the data on cloud and import part of data in shiny application
 2) Compute in R and import the file with few observations in Shiny 
 
 The second method is prefered for this app 
 
 Logic To Calculate the Distance: 
-1) Based on difference  Longitude and Lattitude 
+
+Options that i considered for this step
+
+1) Based on difference in Longitude and Lattitude 
 2) By the common formula Distance = Speed * Time --- Here time difference between the two successive observations is calculated and multiplied by Speed. 
 
 The second method is used for calculations in this app. While analysing it for random sample from data it appears to be overestimating the distance
